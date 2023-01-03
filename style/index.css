@@ -1,0 +1,45 @@
+/*Insertion de la police, ne pas modifier*/
+@font-face {
+    font-family: 'modernm';
+    src: url('font/modern_m-webfont.woff2') format('woff2'),
+         url('font/modern_m-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+Pour téléphone (mobile first)
+*/
+*{
+    font-family: 'modernm';
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 10%;
+}
+
+td{
+    width: 25%;
+    border: 1px solid black;
+    text-align: left;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.github{
+    height: 5vh;
+    width: auto;
+}
+
+@media only screen and (768px<=width){ 
+    /* POUR ORDINATEUR */
+    table{
+        width: 45%;
+    }
+}
