@@ -17,6 +17,7 @@ $notes = $requete->fetchAll();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-witdh, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="icon" href="img/noobnote.png" type="icon">
     <title>Noobnote</title>
 </head>
 <body>
@@ -31,8 +32,8 @@ $notes = $requete->fetchAll();
             <option value="Anglais">Anglais</option>
             <option value="FH">FH</option>
         </select>
-        <input type="text" name="nom">
-        <input type="text" name="note">
+        <input type="text" name="nom" placeholder="Nom de l'examen">
+        <input type="text" name="note" placeholder="Note">
         <select name="coeff" id="coeff">
             <option value="1">1</option>
             <option value="20">20</option>
